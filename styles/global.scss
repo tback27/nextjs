@@ -1,0 +1,21 @@
+html, body {
+  padding: 0; margin: 0
+}
+.topPart{
+  margin-bottom: 20px; display: flex;
+  justify-content: space-between; align-items: center;
+  padding: 0 20%;
+  .button{
+    padding: 3px 8px; background-color: #4245ff;
+    color: #FFFFFF; cursor: pointer; border-radius: 5px;
+  }
+}
+.events{
+  display: flex; flex-wrap: wrap;
+  .card{
+    width: calc(25% - 16px);
+  }
+}
+
+@import "posts.scss";
+@import "credit.scss";

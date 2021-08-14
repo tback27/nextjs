@@ -1,0 +1,1 @@
+export const basicPath = 'http://localhost:5000/events';

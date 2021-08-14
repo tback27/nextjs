@@ -1,0 +1,41 @@
+.navbar{
+  display: flex; justify-content: center;
+  height: 55px; align-items: center;
+  background: linear-gradient(270deg, #4245ff 15.25%, #FFFFFF 98.27%);
+}
+.navbarItem{
+  margin: 0 4px; border-radius: 10%; text-decoration: none;
+  display: flex; justify-content: center; align-items: center;
+  padding: 2px 5px; background-color: #4245ff;
+  color: #FFFFFF; border: 1px solid transparent;
+  transition: 0.2s ease;
+  &:hover{
+    text-decoration: none; border: 1px solid #4245ff;
+    background-color: #FFFFFF; color: #4245ff;
+  }
+  cursor: pointer;
+}
+
+.myLink{
+  display: flex; text-decoration: none;
+  width: 100%; margin: 4px 0;
+  height: 50px; background-color: #ffcf3d;
+  align-items: center; justify-content: center;
+  color: #FFFFFF; border-radius: 10px;
+  font: {
+    size: 24px; weight: 500;
+  };
+  border: 1px solid transparent; transition: 0.2s ease;
+  &:hover{
+    text-decoration: none; border: 1px solid #ffcf3d;
+    background-color: #FFFFFF; color: #ffcf3d;
+  }
+}
+
+.goTo{
+  background-color: #4245ff;
+  &:hover{
+    border: 1px solid #4245ff;
+    background-color: #FFFFFF; color: #4245ff;
+  }
+}
